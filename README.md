@@ -5,14 +5,15 @@ This repo contains code written for the web-page crawler for property price esti
 
 ###Which has bascially following layers in the structure:
 
-CrawlNow(.*)->{CrawlHur(.*),CrawlSah(.*)}
-|
-{GetProperStartPages.+(.*),CrawlPage(.*)}
-|
-CrawlAdvert(.*)
-|
-PropertyGetter(.*)
-
+#####CrawlNow(.*)
+#####|
+#####{CrawlHur(.*),CrawlSah(.*)}
+#####|
+#####{GetProperStartPages.+(.*),CrawlPage(.*)}
+#####|
+#####CrawlAdvert(.*)
+#####|
+#####PropertyGetter(.*)
 *Data fields are like the following.
     * d1=Ilan No
     * d2=Fiyat
